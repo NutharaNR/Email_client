@@ -21,7 +21,7 @@ public class emailSender {
 
         Session session = Session.getInstance(prop, new Authenticator() {
         protected PasswordAuthentication getPasswordAuthentication() {
-            return new PasswordAuthentication("nnrandrahennedi.20@uom.lk", "Nuthara@UoM#2o");
+            return new PasswordAuthentication("nnrandrahennedi.20@uom.lk", <password>);
         }
         });
 
